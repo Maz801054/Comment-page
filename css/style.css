@@ -1,0 +1,74 @@
+img {
+  width: 180px;
+  height: 50px;
+}
+.changes {
+  margin-left: 50px;
+}
+.card {
+  border: none !important;
+}
+.ico {
+  position: relative;
+  left: 500px;
+  top: 55px;
+  color: rgb(72, 207, 72);
+}
+.bt1 {
+  background-color: rgb(72, 207, 72);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+  text-align: center;
+  margin: 0 auto;
+}
+.container {
+  border: 1px solid black;
+}
+.cen {
+  position: relative;
+  left: -50px;
+}
+.sent {
+  position: relative;
+  left: -50px;
+}
+.mx {
+  margin-left: 86px;
+}
+.bt2,
+.bt3,
+.bt4 {
+  padding: 10px 40px;
+}
+.bt4 {
+  background-color: rgb(72, 207, 72);
+  color: white;
+}
+@media (min-width: 300px) and (max-width: 560px) {
+  .mx {
+    padding: 5px;
+    margin-left: -5px;
+  }
+  .bt2 {
+    width: 55%;
+    font-size: 10px;
+    padding: 5px 20px;
+  }
+  .bt3 {
+    width: 55%;
+    font-size: 10px;
+    padding: 5px 20px;
+  }
+  .bt4 {
+    width: 55%;
+    font-size: 10px;
+    padding: 5px 20px;
+  }
+  .dgg {
+    margin-left: -50px;
+    width: 100%;
+  }
+}
